@@ -1,0 +1,147 @@
+body{
+	font-family: 'Roboto', san-serif;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px; 
+}
+.header{
+	min-height: 100vh;
+	margin:0px;
+	padding: 0px; 
+	/*background-color: #2A7FB8;
+	color:white;*/
+	/*background-color: #fff ;*/
+}
+/*.nav.navbar-nav li a {
+    color: white;
+}*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #55CCDB;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #55CCDB; /*BACKGROUND color for active*/
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: white;
+	text-decoration: none;
+	background-color: transparent;  
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	background-color: transparent; 
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #55CCDB; /*Change active text color here*/
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #55CCDB;
+}
+.header .header-img img{
+	margin-top: 0px;
+}
+
+.header .header-logo{
+	background-color: #55CCDB;
+	margin-top: 0px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+}
+.header .header-logo .box{
+	margin: 10px 10px 10px 10px;
+	padding: 20px;
+	/*border:3px solid white;*/
+
+}
+.header .header-logo hr{
+	margin-top:0px; 
+	border:white 2px solid;
+}
+.header .header-logo .tagline{
+	font-size: 20px;
+	color: white;
+}
+.mission .mission-textblock{
+	background-color: #55CCDB;
+	margin: -40px 0px 20px 0px;
+	padding: 30px;
+	color: white;
+	-webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.75);
+}
+.mission .mission-textblock hr{
+	margin-top:0px; 
+	border:white 1.5px solid;
+	margin-right: 50%; 
+}
+.mission .mission-textblock .title{
+	font-size: 30px;
+}
+.mission .mission-textblock .text{
+	font-size: 16px;
+}
+.process{
+	margin:40px;
+}
+.process .process-block{
+	padding: 20px;
+}
+.process .process-block .title{
+	font-size: 20px;
+	text-align: center;
+}
+.process .process-block .text{
+	font-size: 15px;
+	text-align: center;
+}
+.footer{ 
+	background-color: #333;
+	color: #29ABE2;
+	padding-bottom: 10px;
+}
+.footer .title{
+	margin-top: 30px;
+	color: white;
+}
+.footer .text{
+	color: white;
+	padding: 30px;
+}
+.footer ul {
+    list-style:none;
+    padding-left:0;
+}​
+.footer .social ul{
+	list-style:none;
+    padding-left:0;
+}
+.footer .social ul li{
+	display: inline;
+}
+.footer .social ul li img{
+	max-width: 20px;
+}
