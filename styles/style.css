@@ -145,3 +145,17 @@ body{
 .footer .social ul li img{
 	max-width: 20px;
 }
+.resources .textblock{
+	margin-top: 40px; 
+}
+.resources .textblock hr{
+	margin-top:0px; 
+	border:#55CCDB 1.5px solid;
+	margin-right: 50%; 
+}
+.resources .textblock .title{
+	font-size: 30px;
+}
+.resources .textblock .text{
+	font-size: 17px;
+}
